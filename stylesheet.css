@@ -14,6 +14,8 @@ nav{
     max-width: 200px;
     background-color: rgb(184, 189, 158);
     height: 505vh;
+    flex: 1;
+    padding-top: 10px;
    
    
 }
@@ -38,7 +40,7 @@ nav a:hover {
    
 }
 section{
-    padding: 12px;
+    padding: 10px;
     line-height: 1.5;
 }
 header{
@@ -74,23 +76,6 @@ code {
     text-overflow: ellipsis;
   }
   
-
-  pre {
-    font-family: "Operator Mono A", "Operator Mono B", "Source Code Pro", Menlo, Consolas, Monaco, monospace;
-    clear: both;
-    color: rgb(255, 255, 255);
-    tab-size: 2;
-    word-break: normal;
-    hyphens: none;
-    position: relative;
-    line-height: 28px;
-    min-width: 100px;
-    max-width: 100%;
-    background: rgba(32, 28, 41, 0.75);
-    padding: 0px;
-    border-radius: 8px;
-    overflow: hidden;
-}
   @media screen and (max-width: 800px) {
   p {
     width: 50px;
