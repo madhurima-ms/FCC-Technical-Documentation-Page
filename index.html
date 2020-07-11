@@ -1,45 +1,186 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <title>Techical Documentation Page</title>   
- </head>   
- <body>
-     <nav id="navbar">
-         <header>W3 School</header>
-     </nav>
-  <main id="main-doc">
-    <section id="introduction" class="main-section">
-      <header>Introduction</header>  
 
+<head>
+    <title>Techical Documentation Page</title>
+    <link href="stylesheet.css" type="text/css"  rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet" type="text/css">
 
+</head>
 
-    </section>
-    <section id="html" class="main-section">
-    <header> Learn HTML
+<body>
+    <div>
+    <nav id="navbar">
+        <header>W3 School</header>
+        <a href="#introduction" class="nav-link"><i class="fas fa-lg fa-home"></i> Introduction</a>
+        <a href="#html" class="nav-link"> <i class="fab fa-lg fa-html5"></i>  Learn HTML</a>
+        <a href="#css" class="nav-link">  <i class="fab fa-lg fa-css3"></i>    Learn CSS</a>
+        <a href="#bootstrap" class="nav-link"> <i class="fab fa-lg fa-bootstrap"> </i> Learn Bootstrap</a>
+        <a href="#js" class="nav-link">   <i class="fab fa-lg fa-js"> </i> Learn Javascript</a>
+        
+        
+    </nav>
+</div>
+    <main id="main-doc">
+        <div class="short-text">
+        <section id="introduction" class="main section">
+            <header>Introduction</header>
+            W3Schools is an educational website for learning web technologies online. 
+            Content includes tutorials and references relating to HTML, CSS, JavaScript,
+             JSON, PHP, Python, AngularJS, React.js, SQL, Bootstrap, Sass, Node.js, jQuery, XQuery, AJAX, XML, Raspberry Pi, C++, C# and Java.
+             The site derives its name from the World Wide Web (W3), but is not affiliated with the W3C.
 
-    </header>        
-    </section>
-    <section id="css" class="main-section">
-      <header>Learn CSS</header>  
+             W3Schools was originally created in 1998 by Refsnes Data, a Norwegian software development and consulting company.
+             <ul><strong>Easy Learning</strong> 
+             <li> W3Schools has focus on simplicity.</li>  
+                
+             <li>W3Schools practice easy and straight-forward learning.</li>   
+                
+             <li>W3Schools uses simple code explanations with simple illustrations of how to use it.</li>   
+                
+              <li> W3Schools' tutorials start from basic level and move all the way up to professional references</li> </ul>
+            </section>
 
+        <section id="html" class="main section">
+            <header> Learn HTML </header>
+        In the HTML Basics section, you will have a full understanding of Editors and Tools that you need when working on building web pages. <br>
+         It will inform you about the professional editors that web developers use for coding.
+         Elements are the fundamentals of HTML. <br>Each HTML document is made of elements, which are defined using tags. 
+         HTML Elements teaches you the types of HTML elements. <br>It also highlights the difference between HTML tags and HTML elements
+         that are often confused.
+          
+          HTML Basic Tags are used to structure website content (text, hyperlinks, images, media, etc). Tags only "instruct" browsers how to show the content of the web page. <br>
+            HTML Tags chapter suggests the most frequently used tags in HTML with their examples.
+            
+            HTML Attributes are added to an HTML element to provide additional information about it. Book suggests lots of examples and the list of the most used attributes.
+            
+         HTML Formatting sophisticated chapter lets you explore the categories of formatting tags with a brief description and examples.
+            
+            Websites contain different types of links that take you directly to other pages or allow navigating to a specific part of the page. <br>Find out how you can define hyperlinks in the HTML Links chapter and how to use different attributes with links and how to apply links on the image.
+            
+            Our next HTML Color Names chapter shows the ways of changing the color of the text in HTML. Also, find a 216 cross-browser color palette used for creating pages of websites.
+              
+            HTML Tables section suggests the list of deprecated attributes, which means that they are no longer used in the mentioned tags and are replaced by other alternative attributes.<br>
+            
+                HTML Scripts section highlights the way to embed script or reference to an executable script within an HTML document and to trigger scripts.
+                
+                HTML Templates
+                <ul><strong>The Most Important Differences between XHTML & HTML</strong> 
+                    <li>!DOCTYPE> is mandatory
+                    <li>The xmlns attribute in 'html tag' is mandatory</li>    
+                    <li>html, head, title, and body tags are mandatory</li>    
+                    <li>Elements must always be properly nested</li>    
+                    <li>Elements must always be closed</li>    
+                    <li>Elements must always be in lowercase</li>    
+                    <li>Attribute names must always be in lowercase</li>    
+                    <li>Attribute values must always be quoted</li>   
+                      
+                </ul>
+                <code>
+                    html
+                    head
+                    body
+                    form action=""/form
+                    body
+                    head
+                    html
+                </code>
+           
+         
+        </section>
 
+        <section id="css" class="main section">
+            <header>Learn CSS</header>
+            <!-- <p class="wrap"> -->
+                CSS stands for Cascading Style Sheets. It is a language designed to format the layout of Web pages. It is used to enable the separation of presentation and content, which includes layout, colors, and fonts. <br>
+                They improve the accessibility of content, make it more flexible. CSS enables the specific look of HTML in the browser. CSS has lots of advantages. 
+                CSS is a great time-saver; you can write CSS once and then use the same sheet in multiple HTML pages. <br>
+                It provides multiple device compatibility; style sheets allow content to be optimized for more than one type of device.
+                In our CSS tutorial, you will learn how to use CSS to control the style<br> and layout of multiple Web pages all at once.
+                CSS was introduced together with HTML to provide a better way to style HTML elements.<br>
+                Before you continue, you should have a basic knowledge about HTML because, with HTML tags, we create our pages, and with CSS, we give style to our tags.<br> 
+                It means we make our page more beautiful. HTML is used to structure content while the CSS is used for structured formatting content. With CSS, we can change the color,<br> background-color, font-size, etc. Our CSS guide provides some sections which cover the basic knowledge, CSS Properties, and Selectors.
+            <!-- </p>  -->
 
-    </section>
-    <section id="bootstrap" class="main-section">
-      <header>Bootsstap</header>  
+                <!-- <p> -->
+                    CSS is a language that describes the style of an HTML document. CSS describes how HTML elements should be displayed.
+                  This tutorial will teach you CSS from basic to advanced.
+                  Examples in Each Chapter.This CSS tutorial contains hundreds of CSS examples.With our online editor, 
+                  you can edit the CSS, and click on a button to view the result.
+                <!-- </p> -->
+                <ul><strong>CSS Properties</strong>
+                    <li>align-content	Specifies the alignment between the lines inside a flexible container when the items do not use all available space</li>
+                      <li>align-items	Specifies the alignment for items inside a flexible container</li>
+                      <li>align-self	Specifies the alignment for selected items inside a flexible container</li>  
+                      <li>all	Resets all properties (except unicode-bidi and direction)</li>
+                       <li>animation-A shorthand property for all the animation-* properties</li> 
+                      <li>animation-delay	Specifies a delay for the start of an animation</li>  
+                       <li>animation-direction	Specifies whether an animation should be played forwards, backwards or in alternate cycles</li>
 
+                </ul>
+                <code>body{
+                    display: flex;
+                    margin: 0em;
+                    font-family: 'Open Sans', sans-serif;
+                    flex-wrap: wrap;
+                    background-color: #ddd;
+                    color: rgb(136, 32, 32);
+                    }
+                </code> property defines the background color of an element.</p>
 
-
-    </section>
-    <section id="js" class="main-section">
-       <header>Learn JavaScript</header> 
-
-
-
-    </section>
-
-
-
-  </main>
 </body>
+        </section>
+
+        <section id="bootstrap" class="main section">
+            <header>Bootsstap</header>
+            <!-- <p> -->
+                Bootstrap 3 Tutorial
+                Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.
+                
+                Bootstrap is completely free to download and use!
+                
+                Try it Yourself Examples
+                This Bootstrap tutorial contains hundreds of Bootstrap examples.
+                
+                With our online editor, you can edit the code, and click on a button to view the result.
+            <!-- </p> -->
+        </section>
+
+        <section id="js" class="main section">
+            <header>Learn JavaScript</header>
+            <!-- <p> -->
+                JavaScript Tutorial
+                JavaScript is the programming language of HTML and the Web.
+                
+                JavaScript is easy to learn.
+                
+                This tutorial will teach you JavaScript from basic to advanced.
+                
+                Examples in Each Chapter
+                With our "Try it Yourself" editor, you can edit the source code and view the result.
+                <code> 
+                    function validateForm() {
+                        var x = document.forms["myForm"]["fname"].value;
+                        if (x == "") {
+                          alert("Name must be filled out");
+                          return false;
+                        }
+                      }
+                    </code> 
+                
+                <!-- </p> -->
+        </section>
+        <section>
+            <h2>Hello world</h2>
+            <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+            <code>function greetMe(yourName) {
+              alert("Hello " + yourName);
+            }
+            greetMe("World");</code>
+            <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+        </section>
+     </div>   
+    </main>
+</body>
+
 </html>
