@@ -6,14 +6,14 @@ body{
     display: flex;
     margin: 0em;
     font-family: 'Open Sans', sans-serif;
-    /* flex-wrap: wrap; */
+    
     /* word-wrap: break-word; */
     
 }
 nav{
     max-width: 200px;
     background-color: rgb(184, 189, 158);
-    height: 365vh;
+    height: 505vh;
    
    
 }
@@ -45,9 +45,7 @@ header{
     font-size: 25px;
     font-weight: 500;
     padding: 25px;
-    
-    background-color: rgb(238, 204, 204);
-    
+    background-color: rgba(65, 2, 56, 0.397);
     animation-name: sidebaranimation;
     animation-duration: .5s;
 }
@@ -76,14 +74,43 @@ code {
     text-overflow: ellipsis;
   }
   
+
+  pre {
+    font-family: "Operator Mono A", "Operator Mono B", "Source Code Pro", Menlo, Consolas, Monaco, monospace;
+    clear: both;
+    color: rgb(255, 255, 255);
+    tab-size: 2;
+    word-break: normal;
+    hyphens: none;
+    position: relative;
+    line-height: 28px;
+    min-width: 100px;
+    max-width: 100%;
+    background: rgba(32, 28, 41, 0.75);
+    padding: 0px;
+    border-radius: 8px;
+    overflow: hidden;
+}
   @media screen and (max-width: 800px) {
   p {
     width: 50px;
    }
   }
 
-
-  /* body{
-    word-wrap: break-word;
-    /* word-wrap: break-word; */
-  /* }  */
+@media (max-width: 600px){
+    body{
+        flex-direction: column;
+    }
+    nav{
+        border-right: none;
+        width: 100%;
+        height: 390px;
+        overflow-y: scroll;
+        border-bottom:2px solid #777;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        overflow-y: none;
+    }
+}
